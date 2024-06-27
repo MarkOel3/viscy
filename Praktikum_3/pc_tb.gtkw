@@ -1,0 +1,30 @@
+[*]
+[*] GTKWave Analyzer v3.3.118 (w)1999-2023 BSI
+[*] Thu Jun 27 12:00:00 2024
+[*]
+[dumpfile] "/home/eeslabor/repos/viscy/Praktikum_2/pc_tb.ghw"
+[dumpfile_mtime] "Thu Jun 27 11:58:29 2024"
+[dumpfile_size] 695
+[savefile] "/home/eeslabor/repos/viscy/Praktikum_2/pc_tb.gtkw"
+[timestart] 0
+[size] 1000 600
+[pos] -1 -1
+*-19.799999 1332000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] top.
+[treeopen] top.pc_tb.
+[treeopen] top.pc_tb.i_pc.
+[sst_width] 207
+[signals_width] 255
+[sst_expanded] 1
+[sst_vpaned_height] 204
+@28
+top.pc_tb.i_pc.reset
+top.pc_tb.i_pc.clk
+top.pc_tb.i_pc.load
+top.pc_tb.i_pc.inc
+@22
+#{top.pc_tb.i_pc.pc_in[15:0]} top.pc_tb.i_pc.pc_in[15] top.pc_tb.i_pc.pc_in[14] top.pc_tb.i_pc.pc_in[13] top.pc_tb.i_pc.pc_in[12] top.pc_tb.i_pc.pc_in[11] top.pc_tb.i_pc.pc_in[10] top.pc_tb.i_pc.pc_in[9] top.pc_tb.i_pc.pc_in[8] top.pc_tb.i_pc.pc_in[7] top.pc_tb.i_pc.pc_in[6] top.pc_tb.i_pc.pc_in[5] top.pc_tb.i_pc.pc_in[4] top.pc_tb.i_pc.pc_in[3] top.pc_tb.i_pc.pc_in[2] top.pc_tb.i_pc.pc_in[1] top.pc_tb.i_pc.pc_in[0]
+#{top.pc_tb.i_pc.current_pc[15:0]} top.pc_tb.i_pc.current_pc[15] top.pc_tb.i_pc.current_pc[14] top.pc_tb.i_pc.current_pc[13] top.pc_tb.i_pc.current_pc[12] top.pc_tb.i_pc.current_pc[11] top.pc_tb.i_pc.current_pc[10] top.pc_tb.i_pc.current_pc[9] top.pc_tb.i_pc.current_pc[8] top.pc_tb.i_pc.current_pc[7] top.pc_tb.i_pc.current_pc[6] top.pc_tb.i_pc.current_pc[5] top.pc_tb.i_pc.current_pc[4] top.pc_tb.i_pc.current_pc[3] top.pc_tb.i_pc.current_pc[2] top.pc_tb.i_pc.current_pc[1] top.pc_tb.i_pc.current_pc[0]
+#{top.pc_tb.i_pc.pc_out[15:0]} top.pc_tb.i_pc.pc_out[15] top.pc_tb.i_pc.pc_out[14] top.pc_tb.i_pc.pc_out[13] top.pc_tb.i_pc.pc_out[12] top.pc_tb.i_pc.pc_out[11] top.pc_tb.i_pc.pc_out[10] top.pc_tb.i_pc.pc_out[9] top.pc_tb.i_pc.pc_out[8] top.pc_tb.i_pc.pc_out[7] top.pc_tb.i_pc.pc_out[6] top.pc_tb.i_pc.pc_out[5] top.pc_tb.i_pc.pc_out[4] top.pc_tb.i_pc.pc_out[3] top.pc_tb.i_pc.pc_out[2] top.pc_tb.i_pc.pc_out[1] top.pc_tb.i_pc.pc_out[0]
+[pattern_trace] 1
+[pattern_trace] 0
