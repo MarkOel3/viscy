@@ -2,19 +2,15 @@ library IEEE;
 use IEEE.std_logic_1164.all;
 use IEEE.numeric_std.all;
 
-
-
 entity HALF_ADDER is
   port (a, b: in std_logic; sum, carry: out std_logic);
 end HALF_ADDER;
-
-
 
 architecture BEHAVIOR of HALF_ADDER is
 begin
 
   process (a, b)
-    variable a2, b2, result: unsigned (1 downto 0);
+    variable a2, b2, result: unsigned (1 downto 0);     -- TODO: Test to not use variables for Zwischenergebnis
   begin
     a2 := '0' & a;      -- extend 'a' to 2 bit
     b2 := '0' & b;      -- extend 'b' to 2 bit
@@ -25,15 +21,11 @@ begin
 
 end BEHAVIOR;
 
-
-
 architecture DATAFLOW of HALF_ADDER is
 begin
   sum <= a xor b;
   carry <= a and b;
 end DATAFLOW;
-
-
 
 architecture STRUCTURE of HALF_ADDER is
 
@@ -47,7 +39,6 @@ architecture STRUCTURE of HALF_ADDER is
 
   for I0: XOR2 use entity WORK.XOR2(DATAFLOW);
   for I1: AND2 use entity WORK.AND2(DATAFLOW);
-
 begin
   I0: XOR2 port map(x => a, y => b, z => sum);
   I1: AND2 port map(x => a, y => b, z => carry);

@@ -1,0 +1,34 @@
+v 4
+file . "signal_test_tb.vhdl" "da7070b56c9c6ed38760d36cf3cbb19d5db4dd2c" "20240627100825.845":
+  entity signal_test_tb at 1( 0) + 0 on 187;
+  architecture testbench of signal_test_tb at 7( 90) + 0 on 188;
+file . "signal_test.vhdl" "0cf3e1673ff1e3dac43361092033d621cf909db3" "20240627100825.845":
+  entity test at 1( 0) + 0 on 185;
+  architecture behavior of test at 10( 100) + 0 on 186;
+file . "half_adder_tb.vhdl" "1268c4a55f80da089550fce1d133f2ec5abb585a" "20240627094642.233":
+  entity half_adder_tb at 1( 0) + 0 on 158;
+  architecture testbench2 of half_adder_tb at 7( 88) + 0 on 159;
+  architecture testbench1 of half_adder_tb at 54( 1700) + 0 on 160;
+file . "half_adder.vhdl" "b5ab8d2ac13c4b93b1a4ea97ae337a9f112580af" "20240627094642.233":
+  entity half_adder at 1( 0) + 0 on 154;
+  architecture behavior of half_adder at 9( 164) + 0 on 155;
+  architecture dataflow of half_adder at 24( 614) + 0 on 156;
+  architecture structure of half_adder at 30( 712) + 0 on 157;
+file . "xor2.vhdl" "cb74a01cf9673fbf33ac55c9c4be78074df3662c" "20240627094642.232":
+  entity xor2 at 1( 0) + 0 on 151;
+  architecture dataflow of xor2 at 8( 117) + 0 on 152;
+  architecture timed_dataflow of xor2 at 13( 191) + 0 on 153;
+file . "and2.vhdl" "31e52486632569f310e8a9b8d6350ef1a0fd94aa" "20240627094642.232":
+  entity and2 at 1( 0) + 0 on 148;
+  architecture dataflow of and2 at 8( 117) + 0 on 149;
+  architecture timed_dataflow of and2 at 13( 191) + 0 on 150;
+file . "or2.vhdl" "59750ba14230cb257827f470aee64383c07fb1d7" "20240627093117.648":
+  entity or2 at 1( 0) + 0 on 141;
+  architecture timed_dataflow of or2 at 8( 117) + 0 on 142;
+file . "full_adder.vhdl" "f6126ce8def15d26e37aa60795433b67e47f46bb" "20240627093117.648":
+  entity full_adder at 1( 0) + 0 on 143;
+  architecture behaviour of full_adder at 8( 143) + 0 on 144;
+  architecture structure of full_adder at 17( 341) + 0 on 145;
+file . "full_adder_tb.vhdl" "3583cc0c6c43b1a5f04b276d0fd7ab44c021768d" "20240627093117.648":
+  entity full_adder_tb at 1( 0) + 0 on 146;
+  architecture testbench2 of full_adder_tb at 7( 88) + 0 on 147;

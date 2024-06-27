@@ -1,0 +1,26 @@
+[*]
+[*] GTKWave Analyzer v3.3.118 (w)1999-2023 BSI
+[*] Thu Jun 27 08:30:24 2024
+[*]
+[dumpfile] "/home/eeslabor/repos/viscy/Praktikum_1/half_adder_tb.ghw"
+[dumpfile_mtime] "Thu Jun 27 08:27:39 2024"
+[dumpfile_size] 431
+[savefile] "/home/eeslabor/repos/viscy/Praktikum_1/half_adder_tb.gtkw"
+[timestart] 0
+[size] 1000 600
+[pos] 699 193
+*0.000000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] top.
+[treeopen] top.half_adder_tb.
+[sst_width] 207
+[signals_width] 88
+[sst_expanded] 1
+[sst_vpaned_height] 204
+@28
+top.half_adder_tb.impl.a
+top.half_adder_tb.impl.b
+top.half_adder_tb.impl.sum
+@29
+top.half_adder_tb.impl.carry
+[pattern_trace] 1
+[pattern_trace] 0
